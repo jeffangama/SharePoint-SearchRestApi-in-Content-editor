@@ -9,14 +9,11 @@ var siteCollectionTypeToIgnore = "Community";
 var tabListOfSites = [];
 
 $(document).ready(function () {
-
     GetListOfSitesForCurrentUser().then(
         function () {
             RenderData();
         }
     );
-
-    //    iterateEveryItemFromSiteCollectionList();
 });
 
 function RenderData() {
@@ -73,6 +70,7 @@ function GetListOfSitesForCurrentUser() {
         });
 }
 
+//helpers
 function sortAtoZArrayObject(arrayToSort) {
     return arrayToSort.sort(function (a, b) {
         var textA = a.Title.toUpperCase();
