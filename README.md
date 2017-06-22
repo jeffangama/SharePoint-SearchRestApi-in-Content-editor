@@ -12,9 +12,11 @@ Search operations using Search rest endpoint
 
 Create a page > Add content editor webpart > In the content editor webpart properties set https://sp:81/sites/o8/style library/htmlContent.html value > save the Page
 
+Upload the two files shared here (HTML and JS) inside the style library
+
 ### Result
 
-It shall show the list of site you have access to
+It shows the list of sites you have access to
 
 ### Product
 
