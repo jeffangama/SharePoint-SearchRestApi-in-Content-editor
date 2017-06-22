@@ -1,4 +1,4 @@
-### SharePoint-rest-search
+### SharePoint-rest-search-list-webs
 Search operations using Search rest endpoint
 
 //http://sp:81/sites/o8/_api/search/query?querytext='(contentclass:STS_Web)'&rowlimit=500&selectproperties=%27Url,Title%27
