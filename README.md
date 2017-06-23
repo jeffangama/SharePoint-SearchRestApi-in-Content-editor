@@ -1,4 +1,4 @@
-### SharePoint-rest-search-list-webs
+### List down a list of sites that the user has access to in a content editor webpart
 Search operations using Search rest endpoint
 
 //http://sp:81/sites/o8/_api/search/query?querytext='(contentclass:STS_Web)'&rowlimit=500&selectproperties=%27Url,Title%27
@@ -21,3 +21,7 @@ It shows the list of sites you have access to
 ### Product
 
 Tested on SharePoint SP1 CU January 2017
+
+### Read more
+
+Pnp SP Addin : https://github.com/OfficeDev/SharePoint-Add-in-REST-SearchAPIs/search?utf8=%E2%9C%93&q=executeQuery&type=
